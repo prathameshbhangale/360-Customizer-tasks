@@ -20,3 +20,12 @@ This task is about making error handling better in a Node.js user login function
 - **Improved Security**: Not revealing which part of the login process failed (like whether the username exists) helps protect against risks, such as people trying to guess usernames.
   
 - **Easier Debugging and Support**: Clearer error messages make it easier for developers and support teams to quickly find and fix problems in the application.
+
+
+## response for `\login` (Post)
+
+```json
+{
+    "success": true,
+    "message": "Login successful"
+}
