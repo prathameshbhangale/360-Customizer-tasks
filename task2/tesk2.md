@@ -27,7 +27,7 @@ for [/api/users/profile?username=prathamesh&age=21&location=Pune&active_status=t
 }
 ```
 
-for [/api/users/profile?username=john]
+for `/api/users/profile?username=john`
 ```json
 {
     "success": false,
