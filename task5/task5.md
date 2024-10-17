@@ -8,7 +8,7 @@ This task aims to strengthen the error handling mechanisms within a Node.js user
 
 2. **Standardized Error Format**: Establish a uniform JSON structure for error responses, ensuring that clients can interpret error messages easily.
 
-3. **Error Logging**: Implement a logging system (e.g., `winston` or `morgan`) to capture error details, aiding in debugging and monitoring processes.
+3. **Error Logging**: Implement a logging system to capture error details, aiding in debugging and monitoring processes.
 
 4. **Try-Catch Implementation**: Enclose the login logic within try-catch blocks to handle unexpected errors gracefully, preventing potential application crashes.
 
@@ -20,4 +20,4 @@ This task aims to strengthen the error handling mechanisms within a Node.js user
 
 - **Security**: By avoiding disclosure of which aspect of the login process failed (e.g., whether the username is valid), we reduce the risk of account enumeration attacks.
 
-- **Facilitating Debugging and Support**: Providing specific error messages helps developers and support teams quickly diagnose and resolve issues within the application.
+- **Easy Debugging**: Providing specific error messages helps developers and support teams quickly diagnose and resolve issues within the application.
