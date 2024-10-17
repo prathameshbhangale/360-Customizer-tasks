@@ -18,5 +18,5 @@ primary key: user_id
 for fast retrieval of data from table indexing done on 
 (user_id , order_date)
 
---
+```sql
 CREATE INDEX order_table_index ON "order" (user_id, order_date);
