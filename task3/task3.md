@@ -1,6 +1,6 @@
 # Task 3.1 : TypeScript feature is being used to specify the return type of function
 
-* The feature in TypeScript that allows you to specify the return type of a function is called **Function Return Type Annotations**.
+* The feature in TypeScript that allows you to specify the return type of a function is called `Function Return Type Annotations`.
 
 * In TypeScript, you we specify the return type of a function by annotating the function signature with a type after the parameter list. 
 
